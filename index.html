@@ -1,463 +1,460 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Shane Earley</title>
-    <meta name="description" content="From a big hockey family in New Hampshire. Earned degrees from Saint Anselm College and the University of Notre Dame in engineering physics and entrepreneurship. Learning to build reliable software and hardware products with my startup teammates.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap">
-    <style>:root {
-  /* Colors */
-  --primaryColor: #226699;
-  --secondaryColor: #54ACEE;
-  --accentColor: #f1c40f;
-  --linkColor: #2ecc71;
-  --mutedColor: #f4f6f6;
 
-  /* Typography */
-  --ratio: 1.25;
-  --scale0: 1rem;
-  --scale1: calc(var(--scale0) * var(--ratio));
-  --scale2: calc(var(--scale1) * var(--ratio));
-  --scale3: calc(var(--scale2) * var(--ratio));
-  --scale4: calc(var(--scale3) * var(--ratio));
-  --scale5: calc(var(--scale4) * var(--ratio));
-}
+<head>
+  <meta charset="utf-8">
+  <title>Shane Earley</title>
+  <meta name="description"
+    content="From a big hockey family in New Hampshire. Earned degrees from Saint Anselm College and the University of Notre Dame in engineering physics and entrepreneurship. Learning to build reliable software and hardware products with my startup teammates.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap">
+  <style>
+    :root {
+      /* Colors */
+      --primaryColor: #226699;
+      --secondaryColor: #54ACEE;
+      --accentColor: #f1c40f;
+      --linkColor: #2ecc71;
+      --mutedColor: #f4f6f6;
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+      /* Typography */
+      --ratio: 1.25;
+      --scale0: 1rem;
+      --scale1: calc(var(--scale0) * var(--ratio));
+      --scale2: calc(var(--scale1) * var(--ratio));
+      --scale3: calc(var(--scale2) * var(--ratio));
+      --scale4: calc(var(--scale3) * var(--ratio));
+      --scale5: calc(var(--scale4) * var(--ratio));
+    }
 
-html {
-  font-size: 14px;
-}
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-body {
-  color: var(--primaryColor);
-  display: grid;
-  font: 1em/1.5 Lato, sans-serif;
-  gap: 2em;
-  grid-template-columns:
-    [full-start]
-    1fr
-    [main-start side-start]
-    minmax(min-content, 12em)
-    [side-end content-start]
-    minmax(min-content, 36em)
-    [main-end content-end]
-    1fr
-    [full-end];
-  grid-template-rows: auto [content] 0;
-  margin-bottom: 4em;
-}
+    html {
+      font-size: 14px;
+    }
 
-body::before {
-  content: '';
-  grid-column: full;
-  grid-row: content;
-}
+    body {
+      color: var(--primaryColor);
+      display: grid;
+      font: 1em/1.5 Lato, sans-serif;
+      gap: 2em;
+      grid-template-columns:
+        [full-start] 1fr [main-start side-start] minmax(min-content, 12em) [side-end content-start] minmax(min-content, 36em) [main-end content-end] 1fr [full-end];
+      grid-template-rows: auto [content] 0;
+      margin-bottom: 4em;
+    }
 
-ol,
-ul {
-  padding-left: 1em;
-}
+    body::before {
+      content: '';
+      grid-column: full;
+      grid-row: content;
+    }
 
-li + li {
-  margin-top: 0.2em;
-}
+    ol,
+    ul {
+      padding-left: 1em;
+    }
 
-li::marker {
-  color: var(--mutedColor);
-}
+    li+li {
+      margin-top: 0.2em;
+    }
 
-a {
-  color: var(--linkColor);
-  text-decoration: none;
-  transition: color 0.2s;
-}
+    li::marker {
+      color: var(--mutedColor);
+    }
 
-a:focus,
-a:hover {
-  color: var(--accentColor);
-}
+    a {
+      color: var(--linkColor);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
 
-h1,
-h2,
-h3,
-h5 {
-  font-weight: normal;
-}
+    a:focus,
+    a:hover {
+      color: var(--accentColor);
+    }
 
-h1,
-h2,
-h3 {
-  line-height: 1.2;
-}
+    h1,
+    h2,
+    h3,
+    h5 {
+      font-weight: normal;
+    }
 
-h1 {
-  font-size: var(--scale5);
-}
+    h1,
+    h2,
+    h3 {
+      line-height: 1.2;
+    }
 
-h2 {
-  color: var(--secondaryColor);
-  font-size: var(--scale4);
-}
+    h1 {
+      font-size: var(--scale5);
+    }
 
-h3 {
-  color: var(--accentColor);
-  font-size: var(--scale3);
-  grid-column: side;
-  margin-bottom: 1rem;
-}
+    h2 {
+      color: var(--secondaryColor);
+      font-size: var(--scale4);
+    }
 
-h4 {
-  font-size: var(--scale2);
-}
+    h3 {
+      color: var(--accentColor);
+      font-size: var(--scale3);
+      grid-column: side;
+      margin-bottom: 1rem;
+    }
 
-h5 {
-  font-size: var(--scale1);
-}
+    h4 {
+      font-size: var(--scale2);
+    }
 
-h6 {
-  font-size: var(--scale0);
-}
+    h5 {
+      font-size: var(--scale1);
+    }
 
-blockquote {
-  border-left: 0.2em solid var(--mutedColor);
-  padding-left: 1em;
-}
+    h6 {
+      font-size: var(--scale0);
+    }
 
-cite {
-  color: var(--secondaryColor);
-  font-style: inherit;
-}
+    blockquote {
+      border-left: 0.2em solid var(--mutedColor);
+      padding-left: 1em;
+    }
 
-cite::before {
-  content: '— ';
-}
+    cite {
+      color: var(--secondaryColor);
+      font-style: inherit;
+    }
 
-.masthead {
-  background: var(--mutedColor);
-  display: inherit;
-  gap: inherit;
-  grid-column: full;
-  grid-template-columns: inherit;
-  padding: 4em 0;
-  row-gap: 0;
-}
+    cite::before {
+      content: '— ';
+    }
 
-.masthead > *,
-section {
-  grid-column: main;
-}
+    .masthead {
+      background: var(--mutedColor);
+      display: inherit;
+      gap: inherit;
+      grid-column: full;
+      grid-template-columns: inherit;
+      padding: 4em 0;
+      row-gap: 0;
+    }
 
-article > * + *,
-blockquote > * + * {
-  margin-top: 0.6em;
-}
+    .masthead>*,
+    section {
+      grid-column: main;
+    }
 
-.stack {
-  display: grid;
-  gap: 1.5em;
-}
+    article>*+*,
+    blockquote>*+* {
+      margin-top: 0.6em;
+    }
 
-.grid-list {
-  display: grid;
-  gap: 1em;
-}
+    .stack {
+      display: grid;
+      gap: 1.5em;
+    }
 
-.spaced-list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+    .grid-list {
+      display: grid;
+      gap: 1em;
+    }
 
-.spaced-list:first-child::before {
-  border-bottom: 1px solid var(--mutedColor);
-  content: '';
-  flex-grow: 1;
-  margin: 0 1em;
-  order: 1;
-}
+    .spaced-list {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
 
-.spaced-list > :nth-child(2) {
-  order: 2;
-}
+    .spaced-list:first-child::before {
+      border-bottom: 1px solid var(--mutedColor);
+      content: '';
+      flex-grow: 1;
+      margin: 0 1em;
+      order: 1;
+    }
 
-.tag-list {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-}
+    .spaced-list> :nth-child(2) {
+      order: 2;
+    }
 
-.tag-list > li {
-  background: var(--mutedColor);
-  margin: 0 0.2em 0.2em 0;
-  padding: 0.2em 0.6em;
-}
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      padding: 0;
+    }
 
-@media print, (min-width: 48em) {
-  h3 {
-    text-align: right;
-    margin-bottom: inherit;
-  }
+    .tag-list>li {
+      background: var(--mutedColor);
+      margin: 0 0.2em 0.2em 0;
+      padding: 0.2em 0.6em;
+    }
 
-  .masthead > *,
-  section {
-    grid-column: content;
-  }
+    @media print,
+    (min-width: 48em) {
+      h3 {
+        text-align: right;
+        margin-bottom: inherit;
+      }
 
-  section {
-    display: contents;
-  }
+      .masthead>*,
+      section {
+        grid-column: content;
+      }
 
-  .grid-list {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-</style>
-  </head>
-  <body>
-      <header class="masthead">
-          <h1>Shane Earley</h1>
-          <h2>Engineer | Entrepreneur</h2>
-      </header>
-      <section id="contact">
-        <h3>Contact</h3>
-        <div class="grid-list">
-        </div>
-      </section>
-        <section id="about">
-          <h3>About</h3>
-          <article>
-            <p>From a big hockey family in New Hampshire. Earned degrees from Saint Anselm College and the University of Notre Dame in engineering physics and entrepreneurship. Learning to build reliable software and hardware products with my startup teammates.</p>
-          </article>
-        </section>
-        <section id="profiles">
-          <h3>Profiles</h3>
-          <div class="grid-list">
-              <div>
-                  <h4>GitHub</h4>
-                    <a href="https://www.github.com/shanejearley">@shanejearley</a>
-              </div>
-              <div>
-                  <h4>Keybase</h4>
-                    <a href="https://keybase.io/shanejearley">shanejearley</a>
-              </div>
-              <div>
-                  <h4>LinkedIn</h4>
-                    <a href="https://www.linkedin.com/in/shanejearley">in/shanejearley</a>
-              </div>
-              <div>
-                  <h4>Twitter</h4>
-                    <a href="https://twitter.com/shanejearley">@shanejearley</a>
-              </div>
+      section {
+        display: contents;
+      }
+
+      .grid-list {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="masthead">
+    <h1>Shane Earley</h1>
+    <h2>Engineer | Entrepreneur</h2>
+  </header>
+  <section id="about">
+    <h3>About</h3>
+    <article>
+      <p>From a big hockey family in New Hampshire. Earned degrees from Saint Anselm College and the University of Notre
+        Dame in engineering physics and entrepreneurship. Learning to build reliable software and hardware products with
+        my startup teammates.</p>
+    </article>
+  </section>
+  <section id="profiles">
+    <h3>Profiles</h3>
+    <div class="grid-list">
+      <div>
+        <h4>GitHub</h4>
+        <a href="https://www.github.com/shanejearley">@shanejearley</a>
+      </div>
+      <div>
+        <h4>Keybase</h4>
+        <a href="https://keybase.io/shanejearley">shanejearley</a>
+      </div>
+      <div>
+        <h4>LinkedIn</h4>
+        <a href="https://www.linkedin.com/in/shanejearley">in/shanejearley</a>
+      </div>
+      <div>
+        <h4>Twitter</h4>
+        <a href="https://twitter.com/shanejearley">@shanejearley</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <h3>Work</h3>
+    <div class="stack">
+      <article>
+        <header>
+          <div class="spaced-list">
+            <h4>Consensus Networks</h4>
+            <span>
+              <time datetime="2020-08-01">Jul 2020</time> –
+              Present
+            </span>
           </div>
-        </section>
+          <div class="spaced-list">
+            <strong>Lead Engineer</strong>
+          </div>
+        </header>
+        <p>Consensus Networks is building hardware and software infrastructure to protect and mobilize digital value.
+        </p>
+        <h5>Highlights</h5>
+        <ul>
+          <li>Architect blood supply management module to integrate with Navy medical systems</li>
+          <li>Build sites, contracts, and distributed systems to support secure peer-to-peer networks</li>
+        </ul>
+      </article>
+      <article>
+        <header>
+          <div class="spaced-list">
+            <h4>Local Goods</h4>
+            <span>
+              <time datetime="2021-09-01">Aug 2021</time> –
+              Present
+            </span>
+          </div>
+          <div class="spaced-list">
+            <strong>Technical Cofounder</strong>
+          </div>
+        </header>
+        <p>Local Goods is building digital tools for entrepreneurship, fitness, and learning in the real world.</p>
+        <h5>Highlights</h5>
+        <ul>
+          <li>Maintain customer-facing Shopify storefront widgets to support merchants</li>
+          <li>Design fitness and learning applications using high quality data, statistics, and ML</li>
+        </ul>
+      </article>
+      <article>
+        <header>
+          <div class="spaced-list">
+            <h4>Contractor</h4>
+            <span>
+              <time datetime="2019-08-01">Jul 2019</time> –
+              Present
+            </span>
+          </div>
+          <div class="spaced-list">
+            <strong>Software Engineer</strong>
+          </div>
+        </header>
+        <p>Providing large to small businesses with secure and lightweight software development services.</p>
+        <h5>Highlights</h5>
+        <ul>
+          <li>Develop apps for the web, desktop, iOS, and Android (and marketplaces such as Shopify)</li>
+          <li>Create maintainable software and release workflows for businesses</li>
+        </ul>
+      </article>
+      <article>
+        <header>
+          <div class="spaced-list">
+            <h4>Otter Therapies</h4>
+            <span>
+              <time datetime="2019-08-01">Jul 2019</time> –
+              <time datetime="2020-10-31">Oct 2020</time>
+            </span>
+          </div>
+          <div class="spaced-list">
+            <strong>Technical Cofounder</strong>
+          </div>
+        </header>
+        <p>Otter Therapies was building a collaborative care coordination platform for special needs parents, therapists
+          and caregivers.</p>
+        <h5>Highlights</h5>
+        <ul>
+          <li>Build an app for care teams with chat, files, and event scheduling</li>
+          <li>Design secure architecture for handling sensitive patient data</li>
+        </ul>
+      </article>
+      <article>
+        <header>
+          <div class="spaced-list">
+            <h4>Vital View Technologies</h4>
+            <span>
+              <time datetime="2019-05-01">Apr 2019</time> –
+              <time datetime="2019-12-31">Dec 2019</time>
+            </span>
+          </div>
+          <div class="spaced-list">
+            <strong>Technical Product Manager</strong>
+          </div>
+        </header>
+        <p>Vital View Technologies is building a non-contact health sensing platform for chronic disease care.</p>
+        <h5>Highlights</h5>
+        <ul>
+          <li>Prototype algorithms to process breathing and heartbeat signals</li>
+          <li>Manage product milestones and coordinated engineering team meetings</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+  <section id="education">
+    <h3>Education</h3>
+    <div class="stack">
+      <article>
+        <header>
+          <div class="spaced-list">
+            <h4>University of Notre Dame</h4>
+            <span>
+              <time datetime="2018-06-01">May 2018</time> –
+              <time datetime="2019-05-01">Apr 2019</time>
+            </span>
+          </div>
+          <div class="spaced-list">
+            <strong>Engineering, Science, and Technology Entrepreneurship</strong>
+          </div>
+        </header>
+        <p>M.S.</p>
+      </article>
+      <article>
+        <header>
+          <div class="spaced-list">
+            <h4>Saint Anselm College</h4>
+            <span>
+              <time datetime="2014-09-01">Aug 2014</time> –
+              <time datetime="2018-05-01">Apr 2018</time>
+            </span>
+          </div>
+          <div class="spaced-list">
+            <strong>Applied Physics with Computer Science and Math</strong>
+          </div>
+        </header>
+        <p>B.A.</p>
+      </article>
+    </div>
+  </section>
+  <section id="awards">
+    <h3>Awards</h3>
+    <div class="stack">
+      <article>
+        <header>
+          <div class="spaced-list">
+            <h4>McCloskey New Venture Competition Winner</h4>
+            <time datetime="2019-04-01">Mar 2019</time>
+          </div>
+          <div class="spaced-list">
+            <div>
+              Awarded by <strong>Mendoza College of Business</strong>
+            </div>
+          </div>
+        </header>
+        <p>Vital View Technologies won the McCloskey New Venture Competition.</p>
+      </article>
+    </div>
+  </section>
+  <section id="skills">
+    <h3>Skills</h3>
+    <div class="grid-list">
+      <div>
+        <h4>Development</h4>
+        <ul class="tag-list">
+          <li>Javascript</li>
+          <li>Go</li>
+          <li>Python</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Infrastructure</h4>
+        <ul class="tag-list">
+          <li>AWS</li>
+          <li>Docker</li>
+          <li>Shell</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="interests">
+    <h3>Interests</h3>
+    <div class="grid-list">
+      <div>
+        <h4>Reading</h4>
+        <ul class="tag-list">
+          <li>Classics</li>
+          <li>Philosophy</li>
+          <li>Psychology</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Sports</h4>
+        <ul class="tag-list">
+          <li>Dancing</li>
+          <li>Hockey</li>
+          <li>Surfing</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</body>
 
-      <section id="work">
-        <h3>Work</h3>
-        <div class="stack">
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Consensus Networks</h4>
-                  <span>
-                    <time datetime="2020-08-01">Jul 2020</time> –
-                    Present
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Lead Engineer</strong>
-                </div>
-              </header>
-                <p>Consensus Networks is building hardware and software infrastructure to protect and mobilize digital value.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Architect blood supply management module to integrate with Navy medical systems</li>
-                    <li>Build sites, contracts, and distributed systems to support secure peer-to-peer networks</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Local Goods</h4>
-                  <span>
-                    <time datetime="2021-09-01">Aug 2021</time> –
-                    Present
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Technical Cofounder</strong>
-                </div>
-              </header>
-                <p>Local Goods is building digital tools for entrepreneurship, fitness, and learning in the real world.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Maintain customer-facing Shopify storefront widgets to support merchants</li>
-                    <li>Design fitness and learning applications using high quality data, statistics, and ML</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Contractor</h4>
-                  <span>
-                    <time datetime="2019-08-01">Jul 2019</time> –
-                    Present
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Software Engineer</strong>
-                </div>
-              </header>
-                <p>Providing large to small businesses with secure and lightweight software development services.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Develop apps for the web, desktop, iOS, and Android (and marketplaces such as Shopify)</li>
-                    <li>Create maintainable software and release workflows for businesses</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Otter Therapies</h4>
-                  <span>
-                    <time datetime="2019-08-01">Jul 2019</time> –
-                    <time datetime="2020-10-31">Oct 2020</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Technical Cofounder</strong>
-                </div>
-              </header>
-                <p>Otter Therapies was building a collaborative care coordination platform for special needs parents, therapists and caregivers.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Build an app for care teams with chat, files, and event scheduling</li>
-                    <li>Design secure architecture for handling sensitive patient data</li>
-                </ul>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Vital View Technologies</h4>
-                  <span>
-                    <time datetime="2019-05-01">Apr 2019</time> –
-                    <time datetime="2019-12-31">Dec 2019</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Technical Product Manager</strong>
-                </div>
-              </header>
-                <p>Vital View Technologies is building a non-contact health sensing platform for chronic disease care.</p>
-                <h5>Highlights</h5>
-                <ul>
-                    <li>Prototype algorithms to process breathing and heartbeat signals</li>
-                    <li>Manage product milestones and coordinated engineering team meetings</li>
-                </ul>
-            </article>
-        </div>
-      </section>
-      <section id="education">
-        <h3>Education</h3>
-        <div class="stack">
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>University of Notre Dame</h4>
-                  <span>
-                    <time datetime="2018-06-01">May 2018</time> –
-                    <time datetime="2019-05-01">Apr 2019</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Engineering, Science, and Technology Entrepreneurship</strong>
-                </div>
-              </header>
-                <p>M.S.</p>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Saint Anselm College</h4>
-                  <span>
-                    <time datetime="2014-09-01">Aug 2014</time> –
-                    <time datetime="2018-05-01">Apr 2018</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Applied Physics with Computer Science and Math</strong>
-                </div>
-              </header>
-                <p>B.A.</p>
-            </article>
-        </div>
-      </section>
-      <section id="awards">
-        <h3>Awards</h3>
-        <div class="stack">
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>McCloskey New Venture Competition Winner</h4>
-                    <time datetime="2019-04-01">Mar 2019</time>
-                </div>
-                <div class="spaced-list">
-                    <div>
-                      Awarded by <strong>Mendoza College of Business</strong>
-                    </div>
-                </div>
-              </header>
-                <p>Vital View Technologies won the McCloskey New Venture Competition.</p>
-            </article>
-        </div>
-      </section>
-      <section id="skills">
-        <h3>Skills</h3>
-        <div class="grid-list">
-            <div>
-                <h4>Development</h4>
-                <ul class="tag-list">
-                    <li>Javascript</li>
-                    <li>Go</li>
-                    <li>Python</li>
-                </ul>
-            </div>
-            <div>
-                <h4>Infrastructure</h4>
-                <ul class="tag-list">
-                    <li>AWS</li>
-                    <li>Docker</li>
-                    <li>Shell</li>
-                </ul>
-            </div>
-        </div>
-      </section>
-      <section id="interests">
-        <h3>Interests</h3>
-        <div class="grid-list">
-            <div>
-                <h4>Reading</h4>
-                <ul class="tag-list">
-                    <li>Classics</li>
-                    <li>Philosophy</li>
-                    <li>Psychology</li>
-                </ul>
-            </div>
-            <div>
-                <h4>Sports</h4>
-                <ul class="tag-list">
-                    <li>Dancing</li>
-                    <li>Hockey</li>
-                    <li>Surfing</li>
-                </ul>
-            </div>
-        </div>
-      </section>
-  </body>
 </html>
