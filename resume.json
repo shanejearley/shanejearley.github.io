@@ -2,17 +2,18 @@
   "basics": {
     "name": "Shane Earley",
     "label": "Engineer | Entrepreneur",
-    "picture": "https://s.gravatar.com/avatar/ef9464d31e09ebaf58bbc5c7fe3b0ebc?s=500",
+    "image": "https://s.gravatar.com/avatar/ef9464d31e09ebaf58bbc5c7fe3b0ebc?s=500",
+    "email": "shanejearley@gmail.com",
     "summary": "From a big hockey family in New Hampshire. Earned degrees from Saint Anselm College and the University of Notre Dame in engineering physics and entrepreneurship. Learning to build reliable software and hardware products with my startup teammates.",
     "profiles": [
       {
         "network": "GitHub",
-        "username": "@shanejearley",
+        "username": "github.com/shanejearley",
         "url": "https://www.github.com/shanejearley"
       },
       {
         "network": "Keybase",
-        "username": "shanejearley",
+        "username": "keybase.io/shanejearley",
         "url": "https://keybase.io/shanejearley"
       },
       {
@@ -112,7 +113,7 @@
   "skills": [
     {
       "name": "Development",
-      "keywords": ["Javascript", "Go", "Python"]
+      "keywords": ["C++", "Javascript", "Python"]
     },
     {
       "name": "Infrastructure",
