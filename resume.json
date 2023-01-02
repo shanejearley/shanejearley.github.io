@@ -1,23 +1,21 @@
 {
   "basics": {
     "name": "Shane Earley",
-    "label": "Software Engineer",
+    "label": "Engineer | Entrepreneur",
     "picture": "https://s.gravatar.com/avatar/ef9464d31e09ebaf58bbc5c7fe3b0ebc?s=500",
     "email": "shanejearley@gmail.com",
     "phone": "(857) 263-3178",
-    "summary": "Hails from New Hampshire. Earned degrees from the University of Notre Dame and Saint Anselm College. Loves coding and building companies with small teams.",
-    "location": {
-      "address": "10 Vinmar Ct",
-      "postalCode": "03870",
-      "city": "Rye",
-      "countryCode": "US",
-      "region": "NH"
-    },
+    "summary": "From a big hockey family in New Hampshire. Earned degrees from Saint Anselm College and the University of Notre Dame in engineering physics and entrepreneurship. Learning to build reliable software and hardware products with my startup teammates.",
     "profiles": [
       {
         "network": "GitHub",
-        "username": "shanejearley",
+        "username": "@shanejearley",
         "url": "https://www.github.com/shanejearley"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "in/shanejearley",
+        "url": "https://www.linkedin.com/in/shanejearley"
       }
     ]
   },
@@ -26,10 +24,30 @@
       "name": "Consensus Networks",
       "position": "Lead Engineer",
       "startDate": "2020-08-01",
-      "summary": "Consensus Networks is building infrastructure and software to protect and mobilize digital value.",
+      "summary": "Consensus Networks is building hardware and software infrastructure to protect and mobilize digital value.",
       "highlights": [
-        "Architect dashboard apps, ETL piplines, IoT/realtime systems and crypto nodes",
-        "Support dev team by planning and contributing to sprints and monitoring CI/CD"
+        "Architect blood supply management module to integrate with Navy medical systems",
+        "Build sites, contracts and distributed systems to support secure peer-to-peer networks"
+      ]
+    },
+    {
+      "name": "Local Goods",
+      "position": "Technical Cofounder",
+      "startDate": "2021-09-01",
+      "summary": "Local Goods is building practical tools for local e-commerce communities.",
+      "highlights": [
+        "Build customer-facing Shopify storefront widgets",
+        "Extract customer events and provide analytics to merchants"
+      ]
+    },
+    {
+      "name": "Contractor",
+      "position": "Software Engineer",
+      "startDate": "2019-08-01",
+      "summary": "Providing large to small businesses with secure and lightweight software development services.",
+      "highlights": [
+        "Develop apps for the web, desktop, iOS, and Android (and marketplaces such as Shopify)",
+        "Create maintainable software and release workflows for businesses"
       ]
     },
     {
@@ -52,16 +70,6 @@
       "highlights": [
         "Prototype algorithms to process breathing and heartbeat signals",
         "Manage product milestones and coordinated engineering team meetings"
-      ]
-    },
-    {
-      "name": "Contractor",
-      "position": "Software Engineer",
-      "startDate": "2019-08-01",
-      "summary": "Providing large to small businesses with secure and lightweight software development services.",
-      "highlights": [
-        "Develop apps for iOS, Android and web (and marketplaces such as Shopify)",
-        "Create custom web solutions for a wide range of business uses and workflows"
       ]
     }
   ],
@@ -95,22 +103,22 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "keywords": ["HTML", "CSS", "Javascript"]
+      "name": "Development",
+      "keywords": ["Javascript", "Go", "Python"]
     },
     {
-      "name": "DevOps",
-      "keywords": ["AWS", "Kubernetes", "Docker"]
+      "name": "Infrastructure",
+      "keywords": ["AWS", "Docker", "Unix Shell"]
     }
   ],
   "interests": [
     {
       "name": "Reading",
-      "keywords": ["Tech", "Econ", "Philosophy"]
+      "keywords": ["Classics", "Psychology", "Tech"]
     },
     {
       "name": "Sports",
-      "keywords": ["Hockey", "Football", "Surfing"]
+      "keywords": ["Dancing", "Hockey", "Surfing"]
     }
   ]
 }
