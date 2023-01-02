@@ -27,17 +27,17 @@
       "summary": "Consensus Networks is building hardware and software infrastructure to protect and mobilize digital value.",
       "highlights": [
         "Architect blood supply management module to integrate with Navy medical systems",
-        "Build sites, contracts and distributed systems to support secure peer-to-peer networks"
+        "Build sites, contracts, and distributed systems to support secure peer-to-peer networks"
       ]
     },
     {
       "name": "Local Goods",
       "position": "Technical Cofounder",
       "startDate": "2021-09-01",
-      "summary": "Local Goods is building digital tools for the real world.",
+      "summary": "Local Goods is building digital tools for entrepreneurship, fitness, and learning in the real world.",
       "highlights": [
         "Maintain customer-facing Shopify storefront widgets to support merchants",
-        "Design fitness and learning applications using high quality data and ML"
+        "Design fitness and learning applications using high quality data, statistics, and ML"
       ]
     },
     {
@@ -108,7 +108,7 @@
     },
     {
       "name": "Infrastructure",
-      "keywords": ["AWS", "Docker", "Unix Shell"]
+      "keywords": ["AWS", "Docker", "Shell"]
     }
   ],
   "interests": [
