@@ -5,7 +5,7 @@ Change colors in custom theme:
 ```css
 --primaryColor: #226699;
 --secondaryColor: #54ACEE;
---accentColor: #95a5a6;
+--accentColor: #f1c40f;
 --linkColor: #2ecc71;
---mutedColor: #FFEF7C;
+--mutedColor: #f4f6f6;
 ```
