@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/shanejearley
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://shanejearley.github.io
+  * I am shanejearley (https://keybase.io/shanejearley) on keybase.
+  * I have a public key ASBbzwp5o4lXPDe2hvQQ-mhbqEIcjoiaqRRNL9aAuTiFkQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01205bcf0a79a389573c37b686f410fa685ba8421c8e889aa9144d2fd680b93885910a",
+      "host": "keybase.io",
+      "kid": "01205bcf0a79a389573c37b686f410fa685ba8421c8e889aa9144d2fd680b93885910a",
+      "uid": "0423fa1a83b805cda4d7b97f1d2b4319",
+      "username": "shanejearley"
+    },
+    "merkle_root": {
+      "ctime": 1672634657,
+      "hash": "f201900138a03559be702f058802ed48fe56ef65cd884bfb78180dedc6a9cfc01eca8da31c2f750a4de9ae566dbe7d5534eeb93c7fde85fa1bfb713a85b36aa5",
+      "hash_meta": "990b6721f5ac3ee8acba5cec3c91e32d3c5690e32559f815b6798a4f5604eb8e",
+      "seqno": 23797580
+    },
+    "service": {
+      "entropy": "tyqtMAcyXg8yeGwXdNSAFMG7",
+      "hostname": "shanejearley.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.3"
+  },
+  "ctime": 1672634728,
+  "expire_in": 504576000,
+  "prev": "c5d695b4a0dbe80441556c6f1ab579f2e8b172bd4c9f4a30e76e105793869542",
+  "seqno": 19,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgW88KeaOJVzw3tob0EPpoW6hCHI6ImqkUTS/WgLk4hZEKp3BheWxvYWTESpcCE8QgxdaVtKDb6ARBVWxvGrV58uixcr1Mn0ow524QV5OGlULEIO4v1mNpfOqNBJorm8gxI9rMoR+jm6KKzGdx8FVkBQrnAgHCo3NpZ8RAr5lOfrJC48LEXDYiwYQfyy1E7lKFIySOo6xmcD1KB5UYRE4cIuEMWy8xejE7KiRo+oGg78LsNsQAXYIPUVS7BahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGjyfZzM/IeNiz2ZLkcSb1ve4b+sbl3DpDD76IE/d1WBo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/shanejearley
+
+==================================================================
