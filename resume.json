@@ -4,7 +4,7 @@
     "label": "Engineer | Entrepreneur",
     "image": "https://s.gravatar.com/avatar/ef9464d31e09ebaf58bbc5c7fe3b0ebc?s=500",
     "email": "shanejearley@gmail.com",
-    "summary": "From a big hockey family in New Hampshire. Earned degrees from Saint Anselm College and the University of Notre Dame in engineering physics and entrepreneurship. Learning to build reliable software and hardware products with my startup teammates.",
+    "summary": "Working somewhere near Boston, MA. From a big hockey family in New Hampshire. Earned degrees from Saint Anselm College and the University of Notre Dame in engineering physics and entrepreneurship. Learning to build reliable software and hardware products with my startup teammates.",
     "profiles": [
       {
         "network": "GitHub",
@@ -33,7 +33,7 @@
       "name": "Consensus Networks",
       "position": "Lead Engineer",
       "startDate": "2020-08-01",
-      "summary": "Consensus Networks is building hardware and software infrastructure to protect and mobilize digital value.",
+      "summary": "Consensus Networks is building hardware and software infrastructure to protect, monitor, and mobilize assets.",
       "highlights": [
         "Architect blood supply management module to integrate with Navy medical systems",
         "Build sites, contracts, and distributed systems to support secure peer-to-peer networks"
@@ -43,7 +43,7 @@
       "name": "Local Goods",
       "position": "Technical Cofounder",
       "startDate": "2021-09-01",
-      "summary": "Local Goods is building digital tools for entrepreneurship, fitness, and learning in the real world.",
+      "summary": "Local Goods is building digital tools for entrepreneurship, fitness, and learning.",
       "highlights": [
         "Build ecommerce storefront widgets to support shoppers and merchants",
         "Invent fitness and learning applications using high quality data, statistics, and ML"
@@ -88,7 +88,6 @@
       "area": "Engineering, Science, and Technology Entrepreneurship",
       "studyType": "M.S.",
       "location": "Notre Dame, IN",
-      "specialization": "",
       "startDate": "2018-06-01",
       "endDate": "2019-05-01"
     },
@@ -97,7 +96,6 @@
       "area": "Applied Physics with Computer Science and Math",
       "studyType": "B.A.",
       "location": "Manchester, NH",
-      "specialization": "",
       "startDate": "2014-09-01",
       "endDate": "2018-05-01"
     }
