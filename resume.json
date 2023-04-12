@@ -148,7 +148,7 @@
   "projects": [
     {
       "name": "Base",
-      "role": "Lead Engineer",
+      "roles": ["Lead Engineer"],
       "description": "Measurable body and mind fitness training",
       "highlights": [
         "Process real-time HRV data using DFA1 to approximate lactate threshold",
