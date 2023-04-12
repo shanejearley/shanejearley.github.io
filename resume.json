@@ -114,7 +114,7 @@
       "name": "Development",
       "keywords": [
         "C++",
-        "Javascript",
+        "TypeScript",
         "Python"
       ]
     },
@@ -148,6 +148,7 @@
   "projects": [
     {
       "name": "Base",
+      "role": "Lead Engineer",
       "description": "Measurable body and mind fitness training",
       "highlights": [
         "Process real-time HRV data using DFA1 to approximate lactate threshold",
@@ -155,7 +156,6 @@
         "Experiment with WASM to run C++ statistical models in the browser"
       ],
       "startDate": "2023-01-01",
-      "url": "https://github.com/deepworksinc/base",
       "type": "application"
     }
   ]
