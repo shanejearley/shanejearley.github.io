@@ -2,10 +2,12 @@
   "scripts": {
     "dev": "light-server -s . -w 'resume.json # npm run build'",
     "build": "resume export index.html",
-    "export": "resume export resume.pdf"
+    "export": "resume export resume.pdf",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "light-server": "^2.9.1",
-    "resume-cli": "^3.0.6"
+    "resume-cli": "^3.0.8",
+    "husky": "^8.0.0"
   }
 }
