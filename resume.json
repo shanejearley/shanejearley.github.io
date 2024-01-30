@@ -1,10 +1,10 @@
 {
   "basics": {
     "name": "Shane Earley",
-    "label": "Engineer | Entrepreneur",
+    "label": "Software Engineer",
     "image": "https://s.gravatar.com/avatar/ef9464d31e09ebaf58bbc5c7fe3b0ebc?s=500",
-    "email": "shanejearley@gmail.com",
-    "summary": "Working somewhere near Boston, MA. From a big hockey family in New Hampshire. Earned degrees from Saint Anselm College and the University of Notre Dame in engineering physics and entrepreneurship. Learning to build reliable software and hardware products with startups.",
+    "email": "shane@seacoast.partners",
+    "summary": "Living right outside of Boston, MA. Learning to build reliable software and hardware products with startups.",
     "profiles": [
       {
         "network": "GitHub",
@@ -20,15 +20,20 @@
         "network": "LinkedIn",
         "username": "in/shanejearley",
         "url": "https://www.linkedin.com/in/shanejearley"
-      },
-      {
-        "network": "Twitter",
-        "username": "@shanejearley",
-        "url": "https://twitter.com/shanejearley"
       }
     ]
   },
   "work": [
+    {
+      "name": "Seacoast Technical Partners",
+      "position": "Co-Founder",
+      "startDate": "2022-02-01",
+      "summary": "Seacoast Technical Partners is doing prototyping and product development for early stage startups.",
+      "highlights": [
+        "Configure data pipeline infrastructure as code for a wealth tech startup",
+        "Packaged a desktop app with a webcam-based heart rate monitor"
+      ]
+    },
     {
       "name": "Consensus Networks",
       "position": "Lead Engineer",
@@ -42,16 +47,17 @@
     {
       "name": "Contractor",
       "position": "Software Engineer",
-      "startDate": "2019-08-01",
-      "summary": "Providing large to small businesses with secure and lightweight software development services.",
+      "startDate": "2019-05-01",
+      "endDate": "2022-02-01",
+      "summary": "I was providing large to small businesses with secure and lightweight software development services.",
       "highlights": [
         "Develop enterprise apps for a diverse set of device platforms",
-        "Create maintainable software and release workflows for businesses"
+        "Create maintainable software development and release workflows for businesses"
       ]
     },
     {
       "name": "Local Goods",
-      "position": "Technical Cofounder",
+      "position": "Technical Co-Founder",
       "startDate": "2021-09-01",
       "endDate": "2023-01-01",
       "summary": "Local Goods was building digital tools for entrepreneurship, fitness, and learning.",
@@ -62,7 +68,7 @@
     },
     {
       "name": "Otter Therapies",
-      "position": "Technical Cofounder",
+      "position": "Technical Co-Founder",
       "startDate": "2019-08-01",
       "endDate": "2020-10-31",
       "summary": "Otter Therapies was building a collaborative care coordination platform for special needs parents, therapists and caregivers.",
@@ -113,9 +119,9 @@
     {
       "name": "Development",
       "keywords": [
-        "C++",
-        "TypeScript",
-        "Python"
+        "Python",
+        "Rust",
+        "TypeScript"
       ]
     },
     {
@@ -123,7 +129,7 @@
       "keywords": [
         "AWS",
         "Docker",
-        "Shell"
+        "Terraform"
       ]
     }
   ],
@@ -131,32 +137,16 @@
     {
       "name": "Reading",
       "keywords": [
-        "Classics",
-        "Philosophy",
+        "History",
         "Psychology"
       ]
     },
     {
       "name": "Sports",
       "keywords": [
-        "Dancing",
         "Hockey",
         "Surfing"
       ]
-    }
-  ],
-  "projects": [
-    {
-      "name": "Base",
-      "roles": ["Lead Engineer"],
-      "description": "Measurable body and mind fitness training",
-      "highlights": [
-        "Process real-time HRV data using DFA1 to approximate lactate threshold",
-        "Build native apps for passively measurable workouts (e.g. zone 2 training)",
-        "Experiment with WASM to run C++ statistical models in the browser"
-      ],
-      "startDate": "2023-01-01",
-      "type": "application"
     }
   ]
 }
